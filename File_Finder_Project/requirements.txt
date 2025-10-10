@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+# File Finder Project Dependencies
+# This project uses only Python standard library modules
+# No external dependencies required
+
+# Standard library modules used:
+# - pathlib (for cross-platform path handling)
+# - os (for directory traversal with os.walk())
+# - time (for measuring search duration)
+# - datetime (for formatting file timestamps)
+# - math (for pagination calculations)
+=======
+# File Finder Project Dependencies
+# This project uses only Python standard library modules
+# No external dependencies required
+
+# Standard library modules used:
+# - pathlib (for cross-platform path handling)
+# - os (for directory traversal with os.walk())
+# - time (for measuring search duration)
+# - datetime (for formatting file timestamps)
+# - math (for pagination calculations)
+>>>>>>> 38784bedb3032e34d3265a47b814b8d1ad0b14bb
+# - typing (for type annotations)
