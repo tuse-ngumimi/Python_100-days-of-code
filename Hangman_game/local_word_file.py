@@ -1,0 +1,1 @@
+local_word_file = "wordlist.txt"
