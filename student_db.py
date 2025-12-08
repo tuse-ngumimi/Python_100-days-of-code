@@ -118,7 +118,7 @@ def main():
             print("No student records found.")
          else:
             for s in students:
-                 print(f"{s['first_name']} {s['last_name']} | {s['matric_no']} | CGPA: {s['cgpa']}")
+                 print(f"{s['first_name']} {s['last_name']} | {s['matric_no']} | Level: {s['level']}") #it still displays cgpa instead of level
 
       elif choice == "3":
           print("Goodbye!")
