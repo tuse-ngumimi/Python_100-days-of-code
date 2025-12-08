@@ -14,7 +14,7 @@ class StudentDB:
     self.admission_year = int(admission_year)
     self.student_num = int(student_num)
     
-    self.matric_no = f"BHU/{self.admission_year}/{StudentDB.DEPT_CODE}/{self.student_num:05d}"
+    self.matric_no = f"BHU/{self.admission_year}/{StudentDB.DEPT_CODE}/{self.student_num:04d}"
     self.email = f"{self.first_name.lower()}.{self.last_name.lower()}@binghamuni.edu.ng"
 
   def gpa_classification(self):
@@ -118,7 +118,7 @@ def main():
             print("No student records found.")
          else:
             for s in students:
-                print(f"{s['first_name']} {s['last_name']} | {s['matric_no']} | CGPA: {s['cgpa']}")
+                 print(f"{s['first_name']} {s['last_name']} | {s['matric_no']} | CGPA: {s['cgpa']}")
 
       elif choice == "3":
           print("Goodbye!")
