@@ -1,1 +1,21 @@
-.vscode
+
+# Environment variables — never push your passwords
+.env
+
+# Python virtual environment — too large, unnecessary
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CSV data files if they contain sensitive data
+*.csv
+
+
