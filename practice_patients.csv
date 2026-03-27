@@ -1,0 +1,15 @@
+name   , age, blood_type, heart_rate, cholesterol, has_diabetes
+Alice  ,  34, A         , 72        ,         190,            0
+Bob    ,  27, B         , 68        ,         210,            1
+       ,  45, O         , 80        ,         175,            0
+Charlie, 150, A         , 90        ,         200,            0
+Diana  ,  31,           , 65        ,           0,            1
+Eve    ,  29, X         , 70        ,         185,            0
+Frank  ,  38, B         , -10       ,         220,            1
+Grace  ,  44, AB        , 78        ,         165,            0
+Henry  ,  52, O         , 95        ,           0,            0
+Isla   ,  33, A         , 88        ,         310,            2
+Jack   ,  41, B         , 74        ,         198,            1
+       ,    ,           ,           ,            ,             
+Karen  ,  36, O         , 66        ,         245,            0
+Leo    ,  28, A         , 71        ,         180,            1
